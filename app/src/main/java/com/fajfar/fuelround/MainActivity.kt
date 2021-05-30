@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun calculateClick(view: View) {
-
     }
 
 
