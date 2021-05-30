@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
       - name: Build the app
         run: ./gradlew build
